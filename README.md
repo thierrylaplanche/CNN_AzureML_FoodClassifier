@@ -33,11 +33,37 @@ The first file (Model development.ipynb) describes the steps to create the model
 The second file (Model deployment.ipynb) describes how to deploy the model to Microsoft Azure ML.
 
 1. Import libraries
+
 2. Install Azure Machine Learning SDK for Python
+
 3. Create a Machine Learning workspace
+
 4. Connect to your ML workspace
+
 5. Register the model from TFSaved Model folder
+
 6. Create an inference configuration
+
 7. Deploy the model to Azure Container Instances
+
 8. Test the endpoint
+
 9. Update the model
+
+   
+
+Class distribution of training pictures:
+
+![](images/pic1.jpg)
+
+Confusion matrix:
+
+![](images/pic2.jpg)
+
+Grad-CAM:
+
+![](images/pic3.png)
+
+Predictions:
+
+![](images/pic4.png)
