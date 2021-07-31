@@ -11,7 +11,7 @@ This is the source code for a CNN-based food identifier model development projec
 
 It has been developed using Jupyter Notebook and is based on TensorFlow 2 (Keras API).
 
-The first file (Model development.ipynb) describes the steps to create the model, from loading the images to training and evaluating the model performance.
+The file 'Model development.ipynb' describes the steps to create the model, from loading the images to training and evaluating the model performance.
 
 1. Import libraries
 2. Define constants related to the pictures
@@ -25,7 +25,7 @@ The first file (Model development.ipynb) describes the steps to create the model
 8. Visualize the predictions
 9. Understand the predictions of the model
 
-The second file (Model deployment.ipynb) describes how to deploy the model to Microsoft Azure ML.
+The file 'Model deployment.ipynb' describes how to deploy the model to Microsoft Azure ML.
 
 1. Import libraries
 2. Install Azure Machine Learning SDK for Python
@@ -36,6 +36,8 @@ The second file (Model deployment.ipynb) describes how to deploy the model to Mi
 7. Deploy the model to Azure Container Instances
 8. Test the endpoint
 9. Update the model
+
+The entry script used when deploying the model to Azure ML is located under 'deployment'.
 
 
 Class distribution of training pictures:
