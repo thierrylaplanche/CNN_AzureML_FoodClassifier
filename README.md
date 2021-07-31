@@ -1,7 +1,6 @@
 # Transfer Learning, Keras Tuner, Grad-CAM, Azure ML: a CNN-based food classifier model development project, from training to cloud deployment
 
 
-
 ## Description
 
 This is the source code for a CNN-based food identifier model development project which implements the following techniques:
@@ -11,8 +10,6 @@ This is the source code for a CNN-based food identifier model development projec
 - Grad-CAM: technique which provides visual explanations of CNN-type model predictions by highlighting important regions in the image. It is a way of looking into the “black box” of neural networks.
 
 It has been developed using Jupyter Notebook and is based on TensorFlow 2 (Keras API).
-
-
 
 The first file (Model development.ipynb) describes the steps to create the model, from loading the images to training and evaluating the model performance.
 
@@ -28,42 +25,31 @@ The first file (Model development.ipynb) describes the steps to create the model
 8. Visualize the predictions
 9. Understand the predictions of the model
 
-
-
 The second file (Model deployment.ipynb) describes how to deploy the model to Microsoft Azure ML.
 
 1. Import libraries
-
 2. Install Azure Machine Learning SDK for Python
-
 3. Create a Machine Learning workspace
-
 4. Connect to your ML workspace
-
 5. Register the model from TFSaved Model folder
-
 6. Create an inference configuration
-
 7. Deploy the model to Azure Container Instances
-
 8. Test the endpoint
-
 9. Update the model
 
-   
 
 Class distribution of training pictures:
 
-![](images/pic1.jpg)
+![](pictures/pic1.jpg)
 
 Confusion matrix:
 
-![](images/pic2.jpg)
+![](pictures/pic2.jpg)
 
 Grad-CAM:
 
-![](images/pic3.png)
+![](pictures/pic3.png)
 
 Predictions:
 
-![](images/pic4.png)
+![](pictures/pic4.png)
